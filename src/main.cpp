@@ -16,7 +16,7 @@ constexpr int COL = 10;
 constexpr float REST_DISTANCE = 30.0f;
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Cloth Simulation");
+    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "sfml demo");
     window.setFramerateLimit(60);
 
     // Initialize particles and constraints
