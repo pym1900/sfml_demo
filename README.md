@@ -21,6 +21,9 @@ This project is a cloth simulation using **SFML (Simple and Fast Multimedia Libr
 ```bash
 git clone https://github.com/pym1900/sfml_demo.git
 cd sfml_demo
+mkdir build && cd build
+cmake .. && make -j4
+./SFML_SIMULATION 
 ```
 
 ### 2. Install Dependencies
@@ -85,6 +88,9 @@ SFML_SIMULATION/
 │   └── particle.hpp     # Particle system
 ├── src/                 # Source files
 │   ├── main.cpp         # Main simulation logic
+|   ├── constraint.cpp
+|   ├── input_handler.cpp
+|   ├── particle.cpp
 └── README.md            # Project documentation
 ```
 
