@@ -16,11 +16,11 @@ constexpr int COL = 10;
 constexpr float REST_DISTANCE = 30.0f;
 
 int main() {
-    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "sfml demo");
+    sf::RenderWindow window(sf::VideoMode(WIDTH, HEIGHT), "Cloth Simulation");
     window.setFramerateLimit(60);
 
     // Initialize particles and constraints
-    std::vector<Particle> particles;
+    std::vector<physics::Particle> particles;
     particles.reserve(ROW * COL);
 
     std::vector<Constraint> constraints;
