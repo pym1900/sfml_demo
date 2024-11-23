@@ -1,7 +1,7 @@
 # SFML Cloth Simulation
 
 This project is a cloth simulation using **SFML (Simple and Fast Multimedia Library)** for rendering. It demonstrates the application of physics-based constraints and particle systems.
-reference link: https://github.com/FelipesCoding/cloth_simulation.git
+- reference link: https://github.com/FelipesCoding/cloth_simulation.git (相较于原项目，本项目优化了代码结构并采用Cmake进行管理）
 
 ## Features
 
